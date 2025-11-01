@@ -1,0 +1,56 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+/dist
+/.parcel-cache
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# macOS
+__MACOSX
+
+# parcel / vite cache
+.cache/
+.parcel-cache/
+vite.config.ts.timestamp*
+
+# temporary files
+.tmp/
+temp/
+
+# lock files (if you want to keep only one package manager)
+# comment/uncomment as needed
+# yarn.lock
+# package-lock.json
+# pnpm-lock.yaml
+
+# output for VSCode local history
+.history/
